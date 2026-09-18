@@ -645,6 +645,18 @@ h1 .accent, h1 em { color:var(--petrol); font-style:normal; font-weight:700; }
 .success-screen h2 em { color:var(--petrol); font-style:normal; font-weight:700; }
 footer { font-size:11px; }
 
+/* sin secciones: cuestionario seguido */
+.section-num, .section-title, #progressSection { display:none !important; }
+.section { padding:0; border-bottom:none; }
+#surveySections { padding-top:36px; }
+
+/* pie en colores Impulso */
+footer { text-transform:none; font-size:13px; }
+footer a.powered-link { border-bottom:none; text-decoration:none; }
+footer .pw-by { color:#00313B; }
+footer .pw-name { color:#84F9C7; font-weight:700; }
+footer a.powered-link:hover .pw-name { text-decoration:underline; }
+
 </style>
 </head>
 <body>
@@ -689,7 +701,7 @@ footer { font-size:11px; }
   </div>
 
   <footer>
-    <a class="powered-link" href="https://impulsomobility.com/" target="_blank" rel="noopener">Powered by Impulso</a>
+    <a class="powered-link" href="https://impulsomobility.com/" target="_blank" rel="noopener"><span class="pw-by">Powered by</span> <span class="pw-name">Impulso</span></a>
   </footer>
 
 </div>
